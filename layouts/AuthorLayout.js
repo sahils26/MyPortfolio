@@ -5,7 +5,7 @@ import Experience from '@/components/Experience'
 import experienceData from '@/data/experienceData'
 import { RoughNotation } from 'react-rough-notation'
 import { AiOutlineTwitter } from 'react-icons/ai'
-import myImage from "../data/myImage/me.jpg"
+import myImage from '../data/myImage/me.jpg'
 
 export default function AuthorLayout({ children, frontMatter }) {
   const {
