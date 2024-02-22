@@ -4,6 +4,7 @@ const headerNavLinks = [
   { href: '/skills', title: 'Skills' },
   { href: '/projects', title: 'Projects' },
   { href: '/about', title: 'About' },
+  { href: '/contact', title: 'Contact' },
   // { href: '/guestbook', title: 'Guestbook' },
 ]
 
