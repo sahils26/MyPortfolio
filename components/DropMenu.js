@@ -168,7 +168,6 @@ export default function DropMenu() {
               )}
             </Menu.Item>
           </div>
-          
         </Menu.Items>
       </Transition>
     </Menu>

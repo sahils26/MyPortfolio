@@ -218,8 +218,7 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
                   </Link>
                 </div>
               </div>
-              <Comments frontMatter={frontMatter} />
-            </div>
+=            </div>
             <footer>
               <div className="divide-gray-200 text-sm font-medium leading-5 dark:divide-gray-700 xl:col-start-1 xl:row-start-2 xl:divide-y">
                 {tags && (
