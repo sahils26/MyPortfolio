@@ -20,7 +20,7 @@ export default function Resume({ posts, initialDisplayPosts, pagination }) {
   return (
     <>
       <a
-        href="https://drive.google.com/file/d/1LIFjvXKvy9RZlHtxdmxc_215ogPPp9E1/view"
+        href="https://drive.google.com/file/d/171R2ARejavXEkGXgarzObI2iKRJ25Ipu/view?usp=sharing"
         target="_blank"
         className="space-y-2 pt-6 pb-8 md:space-y-5"
         rel="noreferrer"

@@ -20,7 +20,7 @@ const Contact = () => {
               icon="SahilSajwan26"
             />
             <ContactLink
-              href="www.linkedin.com/in/sahil-sajwan26"
+              href="https://www.linkedin.com/in/sahil-sajwan26/"
               title="linkedin"
               icon="sahil-sajwan26"
             />

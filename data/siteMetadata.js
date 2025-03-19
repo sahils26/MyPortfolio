@@ -14,7 +14,7 @@ const siteMetadata = {
   email: 'sahilsajwan26@gmail.com',
   github: 'https://github.com/sahils26',
   twitter: 'https://twitter.com/SahilSajwan26',
-  linkedin: 'https://linkedin.com/in/sahil-sajwan26',
+  linkedin: 'https://www.linkedin.com/in/sahil-sajwan26/',
   website: 'https://parthdesai.vercel.app',
   locale: 'en-US',
   analytics: {

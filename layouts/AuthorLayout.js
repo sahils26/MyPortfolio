@@ -5,7 +5,7 @@ import Experience from '@/components/Experience'
 import experienceData from '@/data/experienceData'
 import { RoughNotation } from 'react-rough-notation'
 import { AiOutlineTwitter } from 'react-icons/ai'
-import myImage from '../data/myImage/me.jpg'
+import myImage from '../data/myImage/Myself.jpeg'
 
 export default function AuthorLayout({ children, frontMatter }) {
   const {
@@ -36,8 +36,8 @@ export default function AuthorLayout({ children, frontMatter }) {
             <Image
               src={myImage}
               alt="avatar"
-              width="192px"
-              height="192px"
+              width="270px"
+              height="360px"
               className="h-48 w-48 rounded-full xl:rounded-full"
               placeholder="blur"
               blurDataURL="/static/images/SVG-placeholder.png"
@@ -85,7 +85,7 @@ export default function AuthorLayout({ children, frontMatter }) {
             <p className="sm:block md:hidden lg:hidden">
               I am always looking to learn new things. I am currently working on a few projects
               related to
-              <span className="font-semibold"> MERN stack and NextJs. </span>
+              <span className="font-semibold"> Cloud architecture and Frontend </span>
               At the same time I am{' '}
               <RoughNotation
                 type="underline"
@@ -107,10 +107,10 @@ export default function AuthorLayout({ children, frontMatter }) {
                 animationDuration="3000"
                 type="highlight"
                 color="#0ea4e9"
-                strokeWidth="2"
+                strokeWidth="3"
                 show={true}
               >
-                <span className="text-black dark:text-white">MERN stack and NextJs. </span>
+                <span className="text-black dark:text-white"> Cloud architecture and Frontend </span>
               </RoughNotation>
               At the same time I am{' '}
               <RoughNotation
@@ -121,16 +121,18 @@ export default function AuthorLayout({ children, frontMatter }) {
                 animationDuration={3000}
                 multiline={true}
               >
-                actively on the lookout for remote internships which I can pursue in field of Data
-                Science
+                actively on the lookout for remote internships which I can pursue in field of Computer Science.
               </RoughNotation>
             </p>
             <br />
             <p>
               A dedicated software engineer with a knack for problem-solving and a love for coding.
-              Committed to creating efficient and reliable solutions, this engineer combines
+              Committed to creating efficient and reliable solutions, this developer combines
               technical expertise with a passion for innovation to tackle diverse challenges in the
-              world of software development. Though you can reach me out via{' '}
+              world of software development. Though you can reach me out via
+      
+              
+              {' '}
               <Link
                 href={'mailto:sahilsajwan26@gmail.com'}
                 className="special-underline no-underline hover:text-gray-100 dark:text-gray-100 hover:dark:text-gray-100"

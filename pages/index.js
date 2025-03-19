@@ -30,7 +30,16 @@ export default function Home({ posts }) {
               </span>
             </h1>
             <h2 className="prose pt-5 text-lg text-gray-600 dark:text-gray-300">
-              {`Welcome to ${siteMetadata.description}. I am a Passionate programmer with proven skills in java, C++ ,Python and a full stack MERN developer. In my free time, I like developing `}
+              {`Welcome to ${siteMetadata.description}. Hallo, I'm Sahil Sajwan, an AWS Certified Solutions Architect – Associate and a Master's student in Computer Science @ `}
+              <a
+                href="https://www.uni-weimar.de/en/"
+                className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Bauhaus Universität Weimar
+              </a>
+              {`, Germany. I specialize in cloud computing, AWS infrastructure (EC2, S3, Lambda, RDS, IAM, VPC), and scalable system architecture. Skilled in Java, JavaScript, MERN Stack (React, Node.js, Express, MongoDB), DevOps, and backend development `}
               side projects and learning new technologies.
             </h2>
             <p className="pt-5 text-lg leading-7 text-slate-600 dark:text-slate-300 sm:block md:hidden lg:hidden">
@@ -139,7 +148,7 @@ export default function Home({ posts }) {
               <div className="my-2 grid items-start gap-8">
                 <div className="group relative">
                   <div className="animate-tilt absolute -inset-0.5 rounded-lg bg-gradient-to-r from-fuchsia-600 to-emerald-600 opacity-50 blur transition duration-1000 group-hover:opacity-100 group-hover:duration-200"></div>
-                  <Link href="https://eduhelp-zeta.vercel.app/">
+                  <Link href="https://profile-three-dusky.vercel.app/">
                     <span className="relative flex items-center divide-x divide-gray-600 rounded-lg bg-white px-7 py-4 leading-none dark:bg-black">
                       <span className="flex items-center space-x-5">
                         <svg
@@ -168,7 +177,7 @@ export default function Home({ posts }) {
               <div className="my-2 grid items-start gap-8">
                 <div className="group relative">
                   <div className="animate-tilt absolute -inset-0.5 rounded-lg bg-gradient-to-r  from-pink-600 to-purple-600 opacity-50 blur transition duration-1000 group-hover:opacity-100 group-hover:duration-200"></div>
-                  <Link href="https://drive.google.com/file/d/1LIFjvXKvy9RZlHtxdmxc_215ogPPp9E1/view">
+                  <Link href="https://drive.google.com/file/d/171R2ARejavXEkGXgarzObI2iKRJ25Ipu/view?usp=sharing">
                     <span className="relative flex items-center divide-x divide-gray-600 rounded-lg bg-white px-7 py-4 leading-none dark:bg-black">
                       <span className="flex items-center space-x-5">
                         <svg

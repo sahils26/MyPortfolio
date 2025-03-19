@@ -100,7 +100,7 @@ class MyDocument extends Document {
           <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#000" />
           <meta
             name="description"
-            content="Welcome to My personal PortFolio where I share my musings. I am a Passionate programmer with proven skills in java, C++ ,Python and a full stack MERN developer."
+            content="Welcome to My personal PortFolio where I share my musings.Hallo,I’m Sahil Sajwan, an AWS Certified Solutions Architect – Associate and a Master’s student in Computer Science @Bauhaus Universität Weimar, Germany. I specialize in cloud computing, AWS infrastructure (EC2, S3, Lambda, RDS, IAM, VPC), and scalable system architecture. Skilled in Java, JavaScript, MERN Stack (React, Node.js, Express, MongoDB), DevOps, and backend development"
           />
           <link rel="alternate" type="application/rss+xml" href="/feed.xml" />
           <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
