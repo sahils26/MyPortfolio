@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 import Link from '@/components/Link'
 import Tag from '@/components/Tag'
 import siteMetadata from '@/data/siteMetadata'
@@ -52,7 +54,6 @@ export default function SnippetsLayout({ posts, title, initialDisplayPosts = [],
                   <Tag text={'Amazon AWS (EC2, ECS, Cloudformation, IAM)++'} />
                   <Tag text={'AWS, Docker, Kubernetes '} />
                   <Tag text={'AWS VPC'} />
-                 
                 </div>
               </div>
             </article>
@@ -80,13 +81,13 @@ export default function SnippetsLayout({ posts, title, initialDisplayPosts = [],
                 <div className="prose prose-base max-w-none text-gray-500 dark:text-gray-400 sm:prose-lg">
                   ---
                 </div>
-                
+
                 <div className="flex flex-wrap pt-2">
                   <Tag text={'Well Architected Framework '} />
                   <Tag text={'High Availability Design'} />
                   <Tag text={'Disaster Recovery'} />
                   <Tag text={'AWS Security Best Practices'} />
-                  <Tag text={'infrastructure-as-code'} />                 
+                  <Tag text={'infrastructure-as-code'} />
                 </div>
               </div>
             </article>

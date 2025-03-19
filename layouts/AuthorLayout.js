@@ -110,7 +110,10 @@ export default function AuthorLayout({ children, frontMatter }) {
                 strokeWidth="3"
                 show={true}
               >
-                <span className="text-black dark:text-white"> Cloud architecture and Frontend </span>
+                <span className="text-black dark:text-white">
+                  {' '}
+                  Cloud architecture and Frontend{' '}
+                </span>
               </RoughNotation>
               At the same time I am{' '}
               <RoughNotation
@@ -121,7 +124,8 @@ export default function AuthorLayout({ children, frontMatter }) {
                 animationDuration={3000}
                 multiline={true}
               >
-                actively on the lookout for remote internships which I can pursue in field of Computer Science.
+                actively on the lookout for remote internships which I can pursue in field of
+                Computer Science.
               </RoughNotation>
             </p>
             <br />
@@ -129,10 +133,7 @@ export default function AuthorLayout({ children, frontMatter }) {
               A dedicated software engineer with a knack for problem-solving and a love for coding.
               Committed to creating efficient and reliable solutions, this developer combines
               technical expertise with a passion for innovation to tackle diverse challenges in the
-              world of software development. Though you can reach me out via
-      
-              
-              {' '}
+              world of software development. Though you can reach me out via{' '}
               <Link
                 href={'mailto:sahilsajwan26@gmail.com'}
                 className="special-underline no-underline hover:text-gray-100 dark:text-gray-100 hover:dark:text-gray-100"
