@@ -1,6 +1,6 @@
 ---
 name: Sahil Sajwan
-avatar: /static/images/avatar.png
+avatar: /static/images/avatar.jpeg
 occupation: Software Engineer
 # company: Accenture
 email: sahilsajwan26@gmail.com

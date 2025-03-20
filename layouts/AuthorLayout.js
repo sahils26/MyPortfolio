@@ -36,8 +36,8 @@ export default function AuthorLayout({ children, frontMatter }) {
             <Image
               src={myImage}
               alt="avatar"
-              width="270px"
-              height="360px"
+              width="240px"
+              height="300px"
               className="h-48 w-48 rounded-full xl:rounded-full"
               placeholder="blur"
               blurDataURL="/static/images/SVG-placeholder.png"
